@@ -1,3 +1,6 @@
-print("Hello World")
-print("I know how to print Hello World")
-print("What about you?")
+print("Dictionary")
+
+B = {"anguish":"several mental or physical pain", "fatigue":"feeling of tiredness",
+     "flourish":"grow or develop in a healthy way"}
+b = input("Enter word")
+print(b,"means",B[b])
